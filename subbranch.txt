@@ -1,0 +1,299 @@
+ <div class="form-group">
+	                    <div class="col-md-1">  <input type="checkbox" id="addContacts" name="addContacts" value="1">
+	                    </div>
+	                      <div class="col-md-9"> 
+                          <label> Add more branch contacts</label> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />please add more contacts if you have other branch office / subsidiary corporations in another province or country   </span></a>
+                          </div>
+                     </div> 
+
+
+<div id="branch" style="display:none">    
+                     <!--<div class="form-group">
+						    <label class="control-label col-md-3"> Legal Representative <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />The legal representative shown on Company Registration Certificate     </span></a></label>
+						    <div class="col-md-2">
+						    	<select name="txtBranchLegalTitle" class="form-control" id="txtBranchLegalTitle">
+                                   <option value="">--</option>
+                                   <option value="Dr.">Dr.</option>
+                                   <option value="Mr.">Mr.</option>
+                                   <option value="Mrs.">Mrs.</option>
+                                   <option value="Miss.">Miss.</option>
+                                   <option value="Prof.">Prof.</option>
+                               	</select>
+						    </div>
+						</div>-->
+						<!--<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text"  name="txtBranchLegalSurname" id="txtBranchLegalSurname"   value="" class="form-control" placeholder="Surname"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')"/>
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text"  name="txtBranchLegalName" id="txtBranchLegalName"  value="" class="form-control" placeholder="Name"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')"/>
+						    </div>
+						</div>-->
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Focal Person <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />The person who is in charge of company’s public relations or marketing    </span></a></label>
+						    <div class="col-md-2">
+						    	<select class="form-control" name="txtBranchFocalPersonTitle" id="txtBranchFocalPersonTitle">
+                                   <option value="">--</option>
+                                   <option value="Dr.">Dr.</option>
+                                   <option value="Mr.">Mr.</option>
+                                   <option value="Mrs.">Mrs.</option>
+                                   
+                                   <option value="Miss.">Miss.</option>
+                                   <option value="Prof.">Prof.</option>
+                               	</select>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text"  name="txtBranchFocalPersonSurname" id="txtBranchFocalPersonSurname" value="" class="form-control" placeholder="Surname"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')"/>
+						    </div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text"  name="txtBranchFocalPersonName" id="txtBranchFocalPersonName"  value="" class="form-control" placeholder="Name"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" />
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Position <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />The focal person’s position    </span></a></label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchPostion"  id="txtBranchPostion" onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="The focal person’s position">
+						    </div>
+						</div>
+                        
+                        <div class="form-group">
+						    <label class="control-label col-md-3"> Department <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />What department is the focal person working in?    </span></a></label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchDepartment"  id="txtBranchDepartment" onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="The Department Name">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Company Address  <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />Company Address    </span></a></label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchCompanyAddrStreet" id="txtBranchCompanyAddrStreet"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="Street, District">
+						    </div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchCompanyAddrCity" id="txtBranchCompanyAddrCity"  onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="City">
+						 	</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchPostCode" id="txtBranchPostCode"  onKeyUp="this.value=this.value.replace(/[^0-9+-/?+ ]+/g,'')" placeholder="Postal Code">
+						    </div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>
+						    <div class="col-md-7">
+						    	<select  name="txtBranchCompanyAddrCountry" id="txtBranchCompanyAddrCountry" class="form-control">
+                                	<option value="">Select Country</option>
+                                    <option value="36">Cambodia</option>
+                                    <option value="119">Lao PDR</option>
+                                    <option value="150">Myanmar</option>
+                                    <option value="217">Thailand</option>
+                                    <option value="238">Vietnam</option>
+                                </select>
+						    </div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-md-3">&nbsp;</label>    
+						    <div class="col-md-7">
+						    	<select  name="txtBranchCompanyAddrProvince" id="txtBranchCompanyAddrProvince" class="form-control" >
+                                	<option value="">Select Province</option>
+                                </select>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Office Phone <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />Click “+” to add more     </span></a></label>
+						    <div class="col-md-6" id="input_fields_wrapBranch">
+						    	<input type="text" class="form-control" name="txtBranchOffcPhone[]" id="txtBranchOffcPhone" onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="The focal person’s position">
+						    </div>
+						    <div class="col-md-1">
+						    	<a href="javascript:void(0)"  id='add_field_buttonBranch'>  <i class="fa fa-plus-square fa-2x" aria-hidden="true"></i> </a>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Fax <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />Click “+” to add more     </span></a></label>
+						    <div class="col-md-6" id="input_fields_wrap_faxBranch">
+						    	<input type="text" class="form-control" name="txtBranchFax[]" id="txtBranchFax" onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="The focal person’s position">
+						    </div>
+						    <div class="col-md-1">
+						    	<a href="javascript:void(0)"  id='add_field_button_faxBranch'>  <i class="fa fa-plus-square fa-2x" aria-hidden="true"></i> </a>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Mobile Phone <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />Important! Focal person’s contact</span></a></label>
+						    <div class="col-md-6" id="input_fields_wrap_mobileBranch">
+						    	<input type="text" class="form-control" name="txtBranchMobilePhone[]" id="txtBranchMobilePhone" onKeyUp="this.value=this.value.replace(/[^a-zA-Z-_&.,0-9/?+ ]+/g,'')" placeholder="The focal person’s mobile no">
+						    </div>
+						    <div class="col-md-1">
+						    	<a href="javascript:void(0)"  id='add_field_button_mobileBranch'>  <i class="fa fa-plus-square fa-2x" aria-hidden="true"></i> </a>
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> E-mail  <span class="redmi">*</span><a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />Please provide the permanent email and / or working email address  of the company used for public relations or marketing.<br>
+Use comma ‘,’ to add more email addresses    </span></a></label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchEmail" id="txtBranchEmail"  placeholder="Email ID">
+						    </div>
+						</div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-3"> Company Website <span class="redmi">*</span> <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />If your company has no website, please fill ‘N/A’ in the field to complete the register procedure.      </span></a></label>
+						    <div class="col-md-7">
+						    	<input type="text" class="form-control" name="txtBranchCompanyWebsite" id="txtBranchCompanyWebsite" placeholder="Company Website(if any)"
+                               >
+						    </div>
+						</div>
+						<!--begin social field-->
+						<div id="social_plugings1">
+							<div class="form-group">
+							    <label class="control-label col-md-3"> Social/ecommerce Platform <a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" />if you have no company website, please do provide information of this field. 
+
+Select your company’s social network / e-commerce platform first and then provide URL or ID in the box beside
+     </span></a></label>
+							    <div class="col-md-2"  id="input_fields_wrap_selBranch">
+							    	<select class="form-control" name="selBranchEcommerce[]" id="selBranchEcommerce">
+										<option value=" ">Select</option>
+										<option value="Twitter">Twitter </option>
+										<option value="Facebook">Facebook </option>
+										<option value="Line">Line </option>
+										<option value="LinkedIn">LinkedIn </option>
+										<option value="Amazon">Amazon </option>
+										<option value="Alibaba">Alibaba </option>
+										<option value="eBay">eBay</option>
+										<option value="Other">Other</option>  
+	                                </select>
+							    </div>
+
+							    <div class="col-md-3"  id="">
+							    	<input type="text" class="form-control" name="txtBranchEcomUrl[]" id="txtBranchEcomUrl" placeholder="">
+							    </div>
+
+							    <div class="col-md-3" id="otherBranch" style="display:none">
+	                        		<input type="text" class="form-control" name="txtBranchOtherPlatform" id="txtBranchOtherPlatform">
+	                       		</div>
+
+	                       		<div class="col-md-1">
+	                       			<a href="javascript:void(0)" id="add_field_button_selBranch"> <i class="fa fa-plus-square fa-2x" aria-hidden="true"></i>  </a>
+	                       		</div>  
+	                       		<script type="text/javascript">
+									$("#selBranchEcommerce").change(function() {
+										if($("#selBranchEcommerce").val()=="Other")
+										{
+											$("#otherBranch").slideDown("normal");
+										}
+										else
+										{
+											$("#txtBranchOtherPlatform").slideUp("normal");
+										}
+									});
+								</script>
+							</div>
+						</div>
+						<!--/social-->
+						<div class="form-group">
+                        	<label class="control-label col-md-3"> Google Map</label>
+                            <div class="col-md-6">
+                            		<input type="radio" name="rd2Branch" id="geo_cord" class="xBranch" value="Coordinates"> Geographic coordinates
+                            		<a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" /><strong>1.</strong>Enter the name and area of the organisation in search input box of google map.<br>
+
+									<strong>2.</strong> Click on the search icon.This will highlight the location of the organisation on the map<br>
+
+									<strong>3.</strong> Right click on the red marker and select "What's here?" option.<br>
+
+									<strong>4.</strong>From the pop up menu select the latitude and longitude. </span></a><br>
+                                    <div id="x1Branch" style="display:none;" class="form-group">
+                                        <div class="col-md-12">
+                                            Latitude <input type="text"  name="txtBranchLatitude" id="txtBranchLatitude" class="form-control"   value="" />
+                                        </div>  
+           
+                                        <div class="col-md-12">       
+                                        Longitude <input type="text"  name="txtBranchLongitude" id="txtBranchLongitude"   value="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    
+                             </div>
+                              <div class="col-md-6">
+									<input type="radio" name="rd2Branch" id="geo_url" class="yBranch" value="Geographic URL"> Geographic URL  
+									<a class="tooltip" href="javascript:void(0)"><strong>(?)</strong> <span class="custom help"><img src="images/Help.png" id="img" alt="Help" height="48" width="48" /><strong>1.</strong>Enter the name and area of the organisation in search input box of google map.<br>
+
+									<strong>2.</strong> Click on the search icon.<br>
+
+									<strong>3.</strong>  Click on the share icon. A pop up menu will appear. <br>
+
+									<strong>4.</strong> Click on the "Embed Map" option on the top of the pop up.
+
+									<strong>5.</strong> A url will appear. Copy this url and place it in this text box. </span></a>
+                               </div>
+                            </div>
+
+                       <div id="y1Branch" style="display:none;">
+                       		<div class="form-group">
+	                        	<label class="control-label col-md-3"></label> 
+	                        	<div class="col-md-7"> 
+                            	<input type="text"  name="txtBranchUrl" id="txtBranchUrl" class="form-control" />
+                            	</div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+							$(".xBranch").click(function() {
+								$("#x1Branch").slideDown("normal");
+								$("#y1Branch").slideUp("normal");
+							});
+							
+							$(".yBranch").click(function() {
+								$("#y1Branch").slideDown("normal");
+								
+								$("#x1Branch").slideUp("normal");
+								
+							});
+						</script>
+                               
+                                  <div class="blockFull">
+                                  <input type="hidden" name="branchlati" id="branchlati">
+                <input type="hidden" name="branchlongi" id="branchlongi">
+                <input type="hidden" name="branchprolati" id="branchprolati">
+                <input type="hidden" name="branchprolongi" id="branchprolongi">
+                                  <hr></div>
+                                  <script type="text/javascript">
+												(function($) {
+													$("#addContacts").click(function() {
+														if($("#branch").is(':hidden'))
+														{
+															$("#branch").slideDown("normal");
+														}
+														else
+														{
+															$("#branch").slideUp("normal");
+														}
+													});
+
+												})(jQuery);
+												</script>
+					</div>
+
+
+
+
+<script src="js/scripts_branchprovince.js"></script> 
+<script src="js/scripts_branchcountry.js"></script> 

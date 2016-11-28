@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.blockFull{
+	width:100%;
+	display: inline-block;
+	font-family:'Raleway';
+	font-size:13px;
+	color: #000;
+	padding:10px 10px 0px 10px;
+}
+
+.blockImg{
+	float:left; 
+}
+
+.fdiv{
+	width:48%;
+	float:left;
+	margin-right:2%;
+	padding:5px 5px 0px 5px;
+}
+
+.sdiv{
+	width:48%;
+	float:left;
+	margin-left:2%;
+	padding:5px 5px 0px 5px;
+}
+.blockLeft{
+	width:30%;
+	float:left;
+}
+.blockRight{
+	width:60%;
+	float:left;
+}
+.formtitle{
+	background-color:#142F51;
+	padding:4px;
+	width:100%;
+	color:#FFF;
+	font-size:1.0em;
+}
+.doubleBox{
+	width:43%;
+}
+.input { border:1px solid #e3e3e3; -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04);-moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04); width:100%; box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04); border-radius:2px;height:30px;}
+.input input[type='text'] {border:0px; width:100%; font-size:12px; font-family:'Raleway'; }
+.booking-left {background:#fff; padding:22px 19px 29px 19px; font-family:'Raleway';}
+
+span.dropt {border-bottom: thin dotted; background: #ffeedd;}
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%; background: #ffffff;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;} 
+
+@media screen and (max-width: 800px) {
+	.input { border:1px solid #e3e3e3; -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04);-moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04); width:100%; box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.04); border-radius:2px;height:30px;}
+.input input[type='text'] {border:0px; width:100%; font-size:12px; font-family:'Raleway'; }
+.blockLeft{
+	width:100%;
+}
+.blockRight{
+	width:100%;
+}
+.booking-left {background:#fff; padding:22px 19px 29px 19px; font-family:'Raleway';}
+.container callout{
+	background:#fff;
+	height:100%;
+}
+.doubleBox{
+	width:100%;
+}
+}
