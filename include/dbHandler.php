@@ -275,7 +275,9 @@ if($cn == false)
 						$newsArray[$r][72] = $row['idustry_focus_des'];	
 						$newsArray[$r][73] = $row['publish_status'];
 						$newsArray[$r][74] = $row['membership_location'];
-						$newsArray[$r][75] = $row['youtube_id'];		  
+						$newsArray[$r][75] = $row['youtube_id'];	
+						$newsArray[$r][76] = $row['reg_date'];	
+						$newsArray[$r][77] = $row['publish_date'];	  
 						$r++;
 					}		
 			mysql_close();	
@@ -396,4 +398,65 @@ function getAllPictures($id,$dataID,$cat_name,$c){
 		return $newsArray;	
 			
 }
+
+//Created by Shaukat on 24 Nov 2016
+
+	function CheckforRegEmail($id){
+	if($cn == false)
+	connect3db();
+	  $sqlV = "Select count(*) from tbl_member_reg  where reg_email ='$id'";
+ 	  $resV = mysql_query($sqlV);
+	  $r = 0;
+	  $row = mysql_fetch_array($resV);
+	  $r = $row[0];
+	  mysql_close();	
+	  return $r;	
+	}
+	
+	function CheckForCountryCode($c){
+	  if($cn == false)
+	  	connect3db();
+	  $sqlV = "Select id from countries where sortname ='".strtoupper($c)."' OR upper(name) = '".strtoupper($c)."'";
+ 	  $resV = mysql_query($sqlV);
+	  $r = 0;
+	  if(mysql_num_rows($resV))
+	  	{
+		$row = mysql_fetch_array($resV);
+	  	$r = $row[0];			
+		}
+	  else
+		$r = 0;
+	  
+	  mysql_close();	
+	  return $r;	
+	}	
+	
+		function insertExcelLog($dataID,$userID,$loaderID,$exl)
+				{
+					$f = 0;	
+					$sqlXLInsert = "INSERT into tbl_excel_data_log (log_user_data_id, log_user_id, log_uploaded_id, log_ExclFile,
+					 log_UploadedOn, log_UploadedTime, log_Status) VALUES('".$dataID."','".$userID."','".$loaderID."','".$exl."','".
+					 date("Y-m-d")."','".date('H:i:s')."',1)";
+			if($cn == false)
+	  			connect3db();
+				
+			$f = mysql_query($sqlXLInsert);
+			return $f;
+		}
+		
+	function checkForExcelData($i)
+		{
+		if($cn == false)
+	  	connect3db();
+		  $sqlV = "Select count(*) from tbl_excel_data_log where log_user_data_id ='".$i."'";
+		  $resV = mysql_query($sqlV);
+		  $r = 0;
+		  if(mysql_num_rows($resV))
+			{
+			$row = mysql_fetch_array($resV);
+			$r = $row[0];			
+			}
+		  mysql_close();	
+		  return $r;	
+		}	
 ?>

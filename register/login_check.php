@@ -83,8 +83,13 @@ else
 					$resSe = mysql_query($sqlSe);
 					if(mysql_num_rows($resSe))
 					{
+						$rowU = mysql_fetch_array($resSe);
+						
 						$_SESSION['data_id'] = $row['data_id'];
 						mysql_close();
+						if($rowU['status'] == 0)
+						echo "success";
+						else if($rowU['status'] == 1)
 						echo "success1";
 					}
 					else

@@ -1,0 +1,342 @@
+[25-Nov-2016 06:02:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:32:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 21
+[25-Nov-2016 18:32:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 29
+[25-Nov-2016 18:32:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 18:32:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 235
+[25-Nov-2016 06:09:01] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:39:01] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:09:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:09:56] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:10:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:40:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:13:01] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:21:35] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:51:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:21:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:22:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[25-Nov-2016 06:22:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:22:23] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:22:31] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:22:37] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:22:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:23:03] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:24:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:54:05] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:24:12] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:25:18] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:25:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:25:26] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:55:26] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:25:28] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:25:29] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:25:32] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 06:27:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 18:57:05] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 06:27:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:43:24] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 11:13:24] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 22:43:35] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:43:59] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:44:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 11:14:25] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 22:44:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[25-Nov-2016 22:44:32] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:54:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:54:48] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 11:24:48] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 22:55:03] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[25-Nov-2016 22:55:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 11:25:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 22:59:01] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 11:29:01] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[25-Nov-2016 23:01:26] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:20:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 12:50:43] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 00:21:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:19] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[26-Nov-2016 00:21:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:27] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:39] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:44] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:21:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:22:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:22:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:22:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:22:33] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:23:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 12:53:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 00:23:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 12:53:41] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 00:23:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:24:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:25:03] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 00:50:29] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 13:20:29] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 00:50:40] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 13:20:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 01:03:10] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:00:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 18:30:25] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 06:00:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:01:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:01:34] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:01:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:01:56] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:02:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:02:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:04:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 18:34:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 06:04:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:05:23] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:05:36] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:05:40] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:10:44] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:10:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:11:16] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:13:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 06:59:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:29:45] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:00:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:00:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[26-Nov-2016 07:00:26] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:01:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:01:21] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:01:44] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:02:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:02:53] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:03:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:03:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:03:36] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:03:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:03:46] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:33:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:04:32] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:13:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:43:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:13:20] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:13:28] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:13:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:14:51] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:18:16] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:48:16] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:18:51] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:18:59] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:19:47] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:19:49] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:19:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:24:44] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:54:44] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:25:03] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:25:09] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:55:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:25:21] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:25:30] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:25:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:25:46] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:25:51] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:27:23] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 19:57:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:27:34] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:27:52] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:28:06] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:28:07] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:28:12] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:32:39] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 20:02:39] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:32:47] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:37:06] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:37:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:37:18] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:38:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:39:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 20:09:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:40:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:40:18] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:46:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 20:16:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 07:46:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:46:20] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:46:27] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 07:46:46] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:45:09] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 22:15:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 09:45:17] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:45:36] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:47:24] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 22:17:24] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 09:47:39] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:51:17] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:52:12] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 22:22:12] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[26-Nov-2016 09:52:18] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:54:52] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:55:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:57:32] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:57:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:58:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[26-Nov-2016 09:59:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:29:47] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 20:59:47] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:29:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:30:07] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:30:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 08:30:12] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:30:21] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:30:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:30:33] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:00:33] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:30:57] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:37:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:37:17] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:07:17] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:38:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:38:29] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:08:29] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:38:33] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:38:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 08:38:54] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:22] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 08:40:31] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:36] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:40] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:45] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:49] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:40:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:41:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:42:06] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:42:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:42:53] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:12:53] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:45:57] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:53:51] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:23:51] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 08:53:54] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:54:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:54:52] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:54:53] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:54:59] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:55:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 08:59:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 21:29:59] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 09:00:10] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 09:00:16] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 09:01:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 10:31:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:01:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 10:31:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 10:31:40] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 10:31:49] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 10:31:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 10:31:54] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:01:54] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 10:35:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:32:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 00:02:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 11:32:24] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:32:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:32:48] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:32:48] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:32:54] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:33:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 00:03:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 11:34:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 11:34:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:31:03] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 01:01:03] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 12:31:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:31:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:31:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:32:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:32:53] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:33:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:33:29] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:33:35] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:34:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 12:35:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 01:05:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 12:37:21] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:00:08] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 01:30:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 13:00:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:00:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 13:00:22] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:00:52] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:18] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:22] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:30] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:32] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:01:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:07:25] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 01:37:25] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 13:07:28] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:07:29] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:01] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 13:08:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:24] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:37] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 13:08:37] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 13:08:52] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:19:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 10:49:55] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 22:20:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:20:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:20:06] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:28:01] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 10:58:01] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 22:28:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:28:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:30:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:30:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:30:46] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:30:46] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:30:55] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:30:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:30:58] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:31:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:31:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:31:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 11:01:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 22:31:19] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:33:37] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:49:38] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:49:43] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 22:49:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:49:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:52:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:52:21] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:52:39] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:53:02] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 22:57:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:05:23] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:05:42] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 23:05:42] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:08:34] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 11:38:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 23:08:39] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:09:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:29:13] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 11:59:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[27-Nov-2016 23:29:47] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/logistk7/public_html/user/registration_status.php:1) in /home5/logistk7/public_html/user/registration_status.php on line 2
+[27-Nov-2016 23:29:47] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:35:14] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:35:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:35:16] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:35:49] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[27-Nov-2016 23:37:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 12:07:05] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 171
+[28-Nov-2016 00:07:01] PHP Parse error:  syntax error, unexpected T_IS_EQUAL in /home5/logistk7/public_html/user/dashboard.php on line 98
+[28-Nov-2016 00:08:11] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 12:38:12] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 162
+[28-Nov-2016 00:09:35] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 12:39:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 170
+[28-Nov-2016 00:09:55] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 00:49:41] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8
+[28-Nov-2016 13:19:41] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home5/logistk7/public_html/user/dashboard.php on line 170
+[28-Nov-2016 00:50:04] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home5/logistk7/public_html/include/common.php on line 8

@@ -195,7 +195,10 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
                           </tr>
                           <tr>
                             <td> Published On</td>
-                            <td> <?php echo $dataList[0][42];?> </td>
+                            <td> 
+                            <?php if($dataList[0][77] != NULL){ ?>
+                            <?php echo date('d M Y', strtotime($dataList[0][77]));?> </td>
+                            <?php }else{ echo '<i>Publish date not available</i>'; } ?>
                           </tr>
                         </tbody>
                       </table>
@@ -234,13 +237,13 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
               <div class="row" style="padding: 10px;">
                     <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Office Type :</label>
-              <div class="col-xs-7 controls"> <?php if($dataList[0][6]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][6])); else echo "Not available";?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Office Type :</label>
+              <div class="col-xs-6 controls"> <?php if($dataList[0][6]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][6])); else echo "Not available";?></div>
               <!-- col-sm-10 --> 
             </div>
                       <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Focal Person : </label>
-              <div class="col-xs-7 controls"> <?php if($dataList[0][10]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][10]));?>
+              <label class="col-xs-6 control-label" style="color: #666;">Focal Person : </label>
+              <div class="col-xs-6 controls"> <?php if($dataList[0][10]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][10]));?>
 
                       <?php if($dataList[0][12]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][12]));?>
 
@@ -248,46 +251,46 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
             </div>
             
             <div class="row mgbt-xs-0">
-                    <label class="col-xs-5 control-label" style="color: #666;">Position : </label>
-                    <div class="col-xs-7 controls"> <?php if($dataList[0][13]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][13]));?></div>
+                    <label class="col-xs-6 control-label" style="color: #666;">Position : </label>
+                    <div class="col-xs-6 controls"> <?php if($dataList[0][13]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][13]));?></div>
                     <!-- col-sm-10 --> 
                   </div>
             
             <div class="row mgbt-xs-0">
-                    <label class="col-xs-5 control-label" style="color: #666;">Department : </label>
-                    <div class="col-xs-7 controls"> <?php if($dataList[0][14]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][14]));?></div>
+                    <label class="col-xs-6 control-label" style="color: #666;">Department : </label>
+                    <div class="col-xs-6 controls"> <?php if($dataList[0][14]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][14]));?></div>
                     <!-- col-sm-10 --> 
                   </div>
 
                 <div class="row mgbt-xs-0">
-                        <label class="col-xs-5 control-label" style="color: #666;">Company Address:</label>
-                        <div class="col-xs-7 controls">
+                        <label class="col-xs-6 control-label" style="color: #666;">Company Address:</label>
+                        <div class="col-xs-6 controls">
 
                         <?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][17]));?></div>
                         <!-- col-sm-10 --> 
                       </div>
                 
           <div class="row mgbt-xs-0">
-                        <label class="col-xs-5 control-label" style="color: #666;">City : </label>
-                        <div class="col-xs-7 controls"><?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][59]));?></div>
+                        <label class="col-xs-6 control-label" style="color: #666;">City : </label>
+                        <div class="col-xs-6 controls"><?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][59]));?></div>
                         <!-- col-sm-10 --> 
                       </div>
                 
                  <div class="row mgbt-xs-0">
-                        <label class="col-xs-5 control-label" style="color: #666;">Postcode :</label>
-                        <div class="col-xs-7 controls"> <?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][60]));?></div>
+                        <label class="col-xs-6 control-label" style="color: #666;">Postcode :</label>
+                        <div class="col-xs-6 controls"> <?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][60]));?></div>
                         <!-- col-sm-10 --> 
                       </div>
                 
                 <div class="row mgbt-xs-0">
-                        <label class="col-xs-5 control-label" style="color: #666;">Country :</label>
-                        <div class="col-xs-7 controls"><?php $country =  getCountry($dataList[0][15]); echo $country[0][2]; ?></div>
+                        <label class="col-xs-6 control-label" style="color: #666;">Country :</label>
+                        <div class="col-xs-6 controls"><?php $country =  getCountry($dataList[0][15]); echo $country[0][2]; ?></div>
                         <!-- col-sm-10 --> 
                       </div>
 
                       <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Province :</label>
-              <div class="col-xs-7 controls"><?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][16]));?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Province :</label>
+              <div class="col-xs-6 controls"><?php echo htmlspecialchars_decode(html_entity_decode($dataList[0][16]));?></div>
               <!-- col-sm-10 --> 
             </div>
          
@@ -295,8 +298,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
           </div>
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Office Phone :</label>
-              <div class="col-xs-7 controls"> 
+              <label class="col-xs-6 control-label" style="color: #666;">Office Phone :</label>
+              <div class="col-xs-6 controls"> 
 			        <?php if($dataList[0][18]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][18]));?><br>
               </div>
               <!-- col-sm-10 --> 
@@ -306,8 +309,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
             
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Fax :</label>
-              <div class="col-xs-7 controls"> 
+              <label class="col-xs-6 control-label" style="color: #666;">Fax :</label>
+              <div class="col-xs-6 controls"> 
                 <?php if($dataList[0][19]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][19]));?><br>
               </div>
               <!-- col-sm-10 --> 
@@ -317,8 +320,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
            
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Mobile Phone : </label>
-              <div class="col-xs-7 controls"> 
+              <label class="col-xs-6 control-label" style="color: #666;">Mobile Phone : </label>
+              <div class="col-xs-6 controls"> 
 			       <?php if($dataList[0][20]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][20]));?><br>
               </div>
               <!-- col-sm-10 --> 
@@ -327,28 +330,28 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
                     
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">E-mail :</label>
-              <div class="col-xs-7 controls"><?php if($dataList[0][21]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][21]));?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">E-mail :</label>
+              <div class="col-xs-6 controls"><?php if($dataList[0][21]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][21]));?></div>
               <!-- col-sm-10 --> 
             </div>
           </div>
                     
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Company Website :</label>
-              <div class="col-xs-7 controls"><a href="<?php if($dataList[0][22]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][22]));?>" target="_blank"><?php if($dataList[0][22]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][22]));?>h</a></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Company Website :</label>
+              <div class="col-xs-6 controls"><a href="<?php if($dataList[0][22]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][22]));?>" target="_blank"><?php if($dataList[0][22]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][22]));?>h</a></div>
               <!-- col-sm-10 --> 
             </div>
           </div>
                     
           <div class="col-sm-6">
             <div class="row mgbt-xs-0">
-              <label class="col-xs-5 control-label" style="color: #666;">Social/ecommerce Platform :</label>
+              <label class="col-xs-6 control-label" style="color: #666;">Social/ecommerce Platform :</label>
               <?php
               $ecom = explode(",",$dataList[0][23]);
               $ecomUrl = explode(",",$dataList[0][24]);
               for($i=0;$i<count($ecom);$i++){ ?> 
-              <div class="col-xs-7 controls"><?php echo $ecom[$i];?>   <?php echo $ecomUrl[$i];?><br></div>
+              <div class="col-xs-6 controls"><?php echo $ecom[$i];?>   <?php echo $ecomUrl[$i];?><br></div>
               <?php } ?>
               <!-- col-sm-10 --> 
             </div>
@@ -405,7 +408,7 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
                       
                     <div class="form-group" style="padding-top: 8px;">
                       <div class="col-sm-10">
-                      <label class="col-xs-5 control-label" style="color: #666;">YouTube Video :</label>
+                      <label class="col-xs-6 control-label" style="color: #666;">YouTube Video :</label>
                         <?php if($dataList[0][75]!=""){?>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $dataList[0][75];?>" frameborder="0" allowfullscreen></iframe>  
         <?php } else { ?>
@@ -523,8 +526,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
             <div class="content-list content-menu">
               <div class="row" style="padding: 10px;">
                         <div>
-              <label class="col-xs-5 control-label" style="color: #666;">Core services :</label>
-              <div class="col-xs-7 controls">
+              <label class="col-xs-6 control-label" style="color: #666;">Core services :</label>
+              <div class="col-xs-6 controls">
                 <?php 
                 if($dataList[0][28]!=""){
                   $exp = explode(',', $dataList[0][28]);
@@ -545,8 +548,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
                     
           <div style="clear:both"></div>
                       <div>
-              <label class="col-xs-5 control-label" style="color: #666;">Other services offered:</label>
-              <div class="col-xs-7 controls">  <?php if(($dataList[0][32]!="")){
+              <label class="col-xs-6 control-label" style="color: #666;">Other services offered:</label>
+              <div class="col-xs-6 controls">  <?php if(($dataList[0][32]!="")){
                         $exp = explode('#', $dataList[0][32]);
                         for($x=0;$x<count($exp);$x++)
                         {
@@ -568,8 +571,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
           
           
                     <div>
-              <label class="col-xs-5 control-label" style="color: #666;">Industry Focus :</label>
-              <div class="col-xs-7 controls">
+              <label class="col-xs-6 control-label" style="color: #666;">Industry Focus :</label>
+              <div class="col-xs-6 controls">
                 
                 <?php if($dataList[0][30] != "") { 
                   $expIndus = explode(",",$dataList[0][30]);
@@ -590,16 +593,16 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
           
           
                     <div>
-              <label class="col-xs-5 control-label" style="color: #666;">Information System Applied in Services :</label>
-              <div class="col-xs-7 controls">    <?php if($dataList[0][34]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][34])); else echo "Not available";?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Information System Applied in Services :</label>
+              <div class="col-xs-6 controls">    <?php if($dataList[0][34]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][34])); else echo "Not available";?></div>
               <!-- col-sm-10 --> 
           </div>
           <div style="clear:both"></div>
                     
           
                     <div>
-              <label class="col-xs-5 control-label" style="color: #666;">Business Geographic Coverage :</label>
-              <div class="col-xs-7 controls">                                         
+              <label class="col-xs-6 control-label" style="color: #666;">Business Geographic Coverage :</label>
+              <div class="col-xs-6 controls">                                         
                 <?php if($dataList[0][35]!="") {
                     $businessArea = explode(",",$dataList[0][35]);
                     $businessAreaDes = explode(",",$dataList[0][36]);
@@ -625,32 +628,32 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
             <h4 class="mgbt-xs-15 font-semibold" style="background-color: #2E6FAB; border-radius: 5px; color: #fff; padding: 10px; margin-top: 5px;"><img src="images/icon5.jpg"> REGISTRATION STATUS</h4>
             <div class="content-list content-menu" style="padding: 10px;">
                           <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Year of Registration :</label>
-              <div class="col-xs-5 controls">   
+              <label class="col-xs-6 control-label" style="color: #666;">Year of Registration :</label>
+              <div class="col-xs-6 controls">   
 									<?php echo $dataList[0][42];?>               </div>
               <!-- col-sm-10 --> 
           	</div>
           <div style="clear:both"></div>
                     
                          <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Registration Authority :</label>
-              <div class="col-xs-5 controls">   
+              <label class="col-xs-6 control-label" style="color: #666;">Registration Authority :</label>
+              <div class="col-xs-6 controls">   
 									 <?php echo $dataList[0][43];?>               </div>
               <!-- col-sm-10 --> 
           	</div>
           <div style="clear:both"></div>
                     
                          <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Registration No. :</label>
-              <div class="col-xs-5 controls">   
+              <label class="col-xs-6 control-label" style="color: #666;">Registration No. :</label>
+              <div class="col-xs-6 controls">   
 									<?php echo $dataList[0][44];?>              </div>
               <!-- col-sm-10 --> 
           	</div>
           <div style="clear:both"></div>
                     
                         <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Company Proprietary Status :</label>
-              <div class="col-xs-5 controls"> 
+              <label class="col-xs-6 control-label" style="color: #666;">Company Proprietary Status :</label>
+              <div class="col-xs-6 controls"> 
                                          <?php if($dataList[0][45]=="Other"){?>
                                          <?php echo $dataList[0][61];?>
                                          <?php } else { ?>
@@ -703,15 +706,15 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
             <div class="content-list content-menu">
               <div class="row" style="padding: 10px;">
                         <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Employee :</label>
-              <div class="col-xs-5 controls">  <?php if($dataList[0][37]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][37])); else echo "Not available";?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Employee :</label>
+              <div class="col-xs-6 controls">  <?php if($dataList[0][37]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][37])); else echo "Not available";?></div>
               <!-- col-sm-10 --> 
           </div>
           <div style="clear:both"></div>
           <?php if($dataList[0][38] != ''): ?>        
           <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Drivers : </label>
-              <div class="col-xs-5 controls"> <?php if($dataList[0][38]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][38])); else echo "Not available";?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Drivers : </label>
+              <div class="col-xs-6 controls"> <?php if($dataList[0][38]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][38])); else echo "Not available";?></div>
               <!-- col-sm-10 --> 
           </div>
           <div style="clear:both"></div>            
@@ -719,8 +722,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
 
           <?php if($dataList[0][39]!=""): ?>
           <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Trucks : </label>
-              <div class="col-xs-5 controls"> <?php if($dataList[0][39]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][39])); else echo "Not available";?> </div>
+              <label class="col-xs-6 control-label" style="color: #666;">Trucks : </label>
+              <div class="col-xs-6 controls"> <?php if($dataList[0][39]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][39])); else echo "Not available";?> </div>
               <!-- col-sm-10 --> 
           </div>
           <div style="clear:both"></div>   
@@ -728,8 +731,8 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
               
               <?php if($dataList[0][40]!=""): ?>
               <div>
-                <label class="col-xs-7 control-label" style="color: #666;">Warehouse : </label>
-                <div class="col-xs-5 controls">   <?php if($dataList[0][40]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][40])); else echo "Not available";?></div>
+                <label class="col-xs-6 control-label" style="color: #666;">Warehouse : </label>
+                <div class="col-xs-6 controls">   <?php if($dataList[0][40]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][40])); else echo "Not available";?></div>
                 <!-- col-sm-10 --> 
                 </div>
               
@@ -738,12 +741,67 @@ $dataList = getUserdata($id,2); //var_dump($dataList);
 
               <?php if($dataList[0][41]!=""): ?>
                       <div>
-              <label class="col-xs-7 control-label" style="color: #666;">Other Assets : </label>
-              <div class="col-xs-5 controls"> <?php if($dataList[0][41]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][41])); else echo "Not available";?></div>
+              <label class="col-xs-6 control-label" style="color: #666;">Other Assets : </label>
+              <div class="col-xs-6 controls"> <?php if($dataList[0][41]!="") echo htmlspecialchars_decode(html_entity_decode($dataList[0][41])); else echo "Not available";?></div>
               <!-- col-sm-10 --> 
           </div>
           <div style="clear:both"></div>
-                <?php endif; ?>   
+                <?php endif; ?>
+
+                <!--IMG-->
+                <div class="form-group">
+
+                <label for="profile_email" class="col-sm-12 control-label"> Photos</label>
+
+                <div>
+
+                  <?Php $getPics = getPics($dataList[0][0],"fixed_asset");
+
+                            if(count($getPics)>0)
+
+                            {
+
+                            for($i=0;$i<count($getPics);$i++)
+
+                            {
+
+                             ?>  
+
+                              <div class="col-md-4" style="margin-bottom: 5px;">
+                                <a class="example-image-link" href="<?php echo $webUrl;?>register/images/fixed_asset/<?php echo $getPics[$i][2];?>" alt="<?php echo $getPics[$i][3];?>" data-lightbox="example-4">
+
+                                  <img src="<?php echo $webUrl;?>register/images/fixed_asset/<?php echo $getPics[$i][2];?>" class="img-responsive" alt="<?php echo $getPics[$i][3];?>">
+                                </a>
+                                <div class="caption">
+                                    <?php echo $getPics[$i][3];?>
+                                </div>
+                              </div>
+                           <!-- <div class="col-md-2">
+
+                           <a class="example-image-link" href="<?php echo $webUrl;?>register/images/fixed_asset/<?php echo $getPics[$i][2];?>" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                            <img src="<?php echo $webUrl;?>register/images/fixed_asset/<?php echo $getPics[$i][2];?>" style="display: block; width: 100%; height: auto; max-width: 100%; max-height: 100%;">
+
+                           </a> 
+
+                            <br/>
+
+                           <label>  <?php echo $getPics[$i][3];?></label> -->
+
+
+
+                           </div> 
+
+                           <?php } } else {?>
+
+                           <label style="color: #ff0000" class="col-md-5">No Picture Uploaded</label>
+
+                           <?php } ?> 
+
+                   </div>        
+
+                </div>
+                <!--/IMG--> 
           
         </div>
             </div>
@@ -1198,8 +1256,7 @@ $('#submitEnquiry').click(function(e) {
   var url  = '';
 
   data += '&enqName='+enqName+'&enqCompany='+enqCompany+'&enqEmail='+enqEmail+'&enqPhone='+enqPhone+'&enqWebsite='+enqWebsite+'&enqCountry='+enqCountry+'&enqComments='+enqComments;
-
-  url += 'rest_insert_enquiry.php';
+  url += '<?php echo $webUrl;?>rest_insert_enquiry.php';
 
   if( (enqName.trim() != '') && (enqCompany.trim() != '') && (enqPhone.trim() != '') && (enqCountry.trim() != '') ) {
     $.ajax({

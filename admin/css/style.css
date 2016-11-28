@@ -1244,6 +1244,17 @@ li {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
 }
+
+.welcome-single-services .text-box h3 a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #242424 !important;
+  font-weight: bold;
+  line-height: 33px;
+  margin-bottom: 9px;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+}
 .welcome-single-services .text-box p {
   color: #898989;
   font-family: 'Lato', sans-serif;
@@ -1252,7 +1263,14 @@ li {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
 }
-
+.welcome-single-services .text-box p a{
+  color: #898989 !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+}
 
 /* ==============================
   12. Featured Services styles

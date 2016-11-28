@@ -1,0 +1,25 @@
+/*
+*  Yukon
+*  print stylesheet
+*/
+
+body {
+    padding: 0 !important;
+}
+#main_header,
+#main_menu,
+#breadcrumbs,
+#style_switcher,
+.hidden-print,
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+    display: none !important;
+}
+#main_wrapper {
+    margin: 0 !important;
+}
+[class*="col-sm-"] + [class*="col-sm-"],
+[class*="col-md-"] + [class*="col-md-"],
+[class*="col-lg-"] + [class*="col-lg-"] {
+    margin-top: 10px;
+}

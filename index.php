@@ -283,26 +283,34 @@ width:100%;
 		<div class="row">
 			<div class="col-md-6">
 				<div class="welcome-single-services">
+					
 					<div class="img-box">
-						<img src="images/welcome-services/1.png" alt="">
+						<a href="logistics-data.php?country_id=36"><img src="images/welcome-services/1.png" alt=""></a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php?country_id=36">
 							<h3>Cambodia</h3>
-							<p> A showcase of logistics service providers in Cambodia</p>
+							<p>A showcase of logistics service providers in Cambodia</p>
+							</a>
 						</div>
 					</div>
+			
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
+						<a href="logistics-data.php?country_id=119">
 						<img src="images/welcome-services/2.png" alt="">
+						</a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php?country_id=119">
 							<h3>Lao PDR</h3>
 							<p>A showcase of logistics service providers in Lao PDR</p>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -310,12 +318,16 @@ width:100%;
             <div class="col-md-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
+						<a href="logistics-data.php?country_id=150">
 						<img src="images/welcome-services/5.png" alt="">
+						</a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php?country_id=150">
 							<h3>Myanmar</h3>
 							<p>A showcase of logistics service providers in Myanmar</p>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -323,12 +335,16 @@ width:100%;
             <div class="col-md-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
+						<a href="logistics-data.php?country_id=238">
 						<img src="images/welcome-services/6.png" alt="">
+						</a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php?country_id=238">
 							<h3>Vietnam</h3>
 							<p>A showcase of logistics service providers in Vietnam</p>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -336,12 +352,16 @@ width:100%;
 			<div class="col-md-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
+						<a href="logistics-data.php?country_id=217">
 						<img src="images/welcome-services/3.png" alt="">
+						</a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php?country_id=217">
 							<h3>Thailand</h3>
 							<p>A showcase of logistics service providers in Thailand</p>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -349,12 +369,16 @@ width:100%;
 			<div class="col-md-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
+						<a href="logistics-data.php">
 						<img src="images/welcome-services/4.png" alt="">
+						</a>
 					</div>
 					<div class="text-box">
 						<div class="content">
+							<a href="logistics-data.php">
 							<h3>Others</h3>
 							<p>A showcase of logistics service providers in other regions</p>
+							</a>
 						</div>
 					</div>
 				</div>
