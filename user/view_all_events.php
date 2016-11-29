@@ -33,21 +33,6 @@ if(mysql_num_rows($res1))
     $row1= mysql_fetch_array($res1);
     $user_data_id = $row1['id'];
 }
-
-
-//get the data
-echo $sql = "SELECT events.*, countries.name 
-        FROM events as events, countries as countries 
-        WHERE events.organiser_country_id = countries.id
-        
-        AND events.user_data_id = '".$user_data_id."'";
-
-$res = mysql_query($sql);
-if(mysql_num_rows($res))
-{
-    $row = mysql_fetch_array($res);
-    var_dump($row); exit;
-}
 ?>
 
 <!DOCTYPE html>
@@ -100,11 +85,25 @@ if(mysql_num_rows($res))
                         </div>
                         <?php endif; ?>
 
+                        <?php
 
+                            //get the data
+                            $sql = "SELECT events.*, countries.name as organising_country, event_c.name as event_country
+                                    FROM events as events, countries as countries , countries as event_c
+                                    WHERE events.organiser_country_id = countries.id
+                                    AND event_c.id = events.event_country_id
+                                    AND events.user_data_id = '".$user_data_id."'";
+
+                            $res = mysql_query($sql);
+                            if(mysql_num_rows($res))
+                            {
+                                $i = 1;
+                        ?>
                         <!-- List all Events added bt the user-->
                         <table id="datatable_events" class="table table-striped table-bordered" cellspacing="0" width="100%">
                             <thead>
                                 <tr>
+                                    <th>#</th>
                                     <th>Event Title</th>
                                     <th>Event Date From</th>
                                     <th>Event Date To</th>
@@ -113,16 +112,34 @@ if(mysql_num_rows($res))
                                     <th>Organiser Contact Name</th>
                                     <th>Organiser Position</th>
                                     <th>Organiser Mobile</th>
+                                    <th>Event Country</th>
                                     <th>Event City</th>
                                     <th>Event Address</th>
                                 </tr>
                             </thead>
 
                             <tbody>
+                                <?php while($r = mysql_fetch_array($res)){ ?>
+
                                 <tr>
+                                    <td> <?php echo $i++; ?></td>
+                                    <td> <?php echo $r['event_title']; ?> </td>
+                                    <td> <?php echo $r['event_date_from']; ?> </td>
+                                    <td> <?php echo $r['event_date_to']; ?> </td>
+                                    <td> <?php echo $r['organiser_address']; ?> </td>
+                                    <td> <?php echo $r['organising_country']; ?> </td>
+                                    <td> <?php echo $r['organiser_contact_name']; ?> </td>
+                                    <td> <?php echo $r['organiser_position']; ?> </td>
+                                    <td> <?php echo $r['organiser_mobile']; ?> </td>
+                                    <td> <?php echo $r['event_country']; ?> </td>
+                                    <td> <?php echo $r['event_city']; ?> </td>
+                                    <td> <?php echo $r['event_address']; ?> </td>
+                                    
                                 </tr>
+                                <?php } ?>
                             </tbody>
                         </table>
+                        <?php } ?>
                     </div>      
                 </div>
             </div>

@@ -79,7 +79,7 @@ $branchDataList = getUserBranchdata($dataList[0][0],1);
                         </div>
                         <?php endif; ?>
 
-                        <form action="post_add_event.php" method="POST" class="form-horizontal" role="form">    
+                        <form action="post_add_event.php" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">    
                             <div class="col-md-6">
                                 <h3 class="heading_a"><span class="heading_text">Event Details</span></h3>
 
@@ -99,6 +99,16 @@ $branchDataList = getUserBranchdata($dataList[0][0],1);
 
                                     <div class="col-sm-9">
                                        <textarea class="form-control" name="event_description" required="required" rows="3" placeholder="Event Desription"></textarea>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="profile_fb" class="col-sm-3 control-label">Event Poster*</label>
+
+                                    <div class="col-sm-9">
+                                       <input type="file" class="form-control" name="event_poster" required="required" />
                                     </div>
 
                                 </div>

@@ -69,7 +69,7 @@
                             <ul>
                                 <li class="submenu-title">Forms</li>
                                 <li><a href="add_new_event.php">Add new event</a></li>
-                                <li><a href="registration_status.php">Manage event</a></li>
+                                <li><a href="view_all_events.php">Manage event</a></li>
  
                             </ul>
                         </li>

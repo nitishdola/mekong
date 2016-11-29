@@ -20,6 +20,7 @@ $insert = true;
 $event_title = htmlspecialchars($_POST['event_title']);
 $event_description = htmlspecialchars($_POST['event_description']);
 
+
 $event_date_from = htmlspecialchars($_POST['event_date_from']);
 $event_date_to = htmlspecialchars($_POST['event_date_to']);
 
@@ -115,6 +116,46 @@ if(trim($event_address) == '') {
 	$insert = false;
 }
 
+
+//upload image
+$insert = false;
+if(isset($_FILES['event_poster'])) {
+    $errors     = array();
+    $maxsize    = 2097152;
+    $acceptable = array(
+        'image/jpeg',
+        'image/jpg',
+        'image/gif',
+        'image/png'
+    );
+
+    if(($_FILES['event_poster']['size'] >= $maxsize) || ($_FILES["event_poster"]["size"] == 0)) {
+        $errors[] = 'File too large. File must be less than 2 megabytes.';
+
+    }
+
+    if(!in_array($_FILES['event_poster']['type'], $acceptable) && (!empty($_FILES["event_poster"]["type"]))) {
+        $errors['file_type_error'] = 'Invalid file type. Only JPG, GIF and PNG types are accepted.';
+    }
+
+    if(count($errors) === 0) {
+    	$file_name = $_FILES['event_poster']['name'];
+    	$file_name = strtolower(str_replace(' ', '-', $file_name));
+    	$file_name = md5(time()).'-'.$file_name;
+        if(move_uploaded_file($_FILES['event_poster']['tmp_name'], 'uploads/event_posters/'.$file_name)){
+        	$insert = true;	
+        }
+        
+    } else {
+        foreach($errors as $error) {
+            echo '<script>alert("'.$error.'");</script>';
+        }
+
+        die(); //Ensure no more processing is done
+    }
+}
+
+
 if($insert == true) {
 	//get data id
 	$sql1 = "select id from tbl_user_data where user_id = '".$_SESSION['user_id']."'";
@@ -130,10 +171,11 @@ if($insert == true) {
 	//insert to database
 	$created_at = date('Y-m-d H:i:s');
 	$sql = 
-				"INSERT INTO  events(user_data_id,event_title,event_description,event_date_from,event_date_to,organiser_address,organiser_country_id,organiser_contact_name,organiser_position,organiser_telephone,organiser_mobile, 	organiser_email,event_country_id,event_province,event_city,event_address,created_at) 
+				"INSERT INTO  events(user_data_id,event_title,event_poster,event_description,event_date_from,event_date_to,organiser_address,organiser_country_id,organiser_contact_name,organiser_position,organiser_telephone,organiser_mobile, 	organiser_email,event_country_id,event_province,event_city,event_address,created_at) 
 				VALUES(
 				'$user_data_id',
 				'$event_title',
+				'$file_name',
 				'$event_description',
 				'$event_date_from',
 				'$event_date_to',
@@ -165,8 +207,8 @@ if($insert == true) {
 	}
 }else{
 	$_SESSION['errors'] = '';
-	$_SESSION['errors'] = $errors;
-	header('location:add_new_event.php');
+	$_SESSION['errors'] = $errors; var_dump($_FILES); var_dump($errors);
+	//header('location:add_new_event.php');
 	exit;
 }
 ?>
