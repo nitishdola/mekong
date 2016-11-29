@@ -1,4 +1,7 @@
-<?php include( "include/globalIncWeb.php"); ini_set( "display_errors",0); $id=$ _GET[ 'id']; $dataList=g etUserdata($id,2); //var_dump($dataList); ?>
+<?php 
+include( "include/globalIncWeb.php"); 
+ini_set( "display_errors",0); 
+$id = $_GET[ 'id']; $dataList = getUserdata($id,2); //var_dump($dataList); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -216,7 +219,7 @@
                                         <tr>
                                             <td> Published On</td>
                                             <td>
-                                                <?php if($dataList[0][77] !=N ULL){ ?>
+                                                <?php if($dataList[0][77] !=NULL){ ?>
                                                 <?php echo date( 'd M Y', strtotime($dataList[0][77]));?> </td>
                                             <?php }else{ echo '<i>Publish date not available</i>'; } ?>
                                         </tr>
@@ -321,7 +324,7 @@
                                                                 <div class="row mgbt-xs-0">
                                                                     <label class="col-xs-6 control-label" style="color: #666;">Country :</label>
                                                                     <div class="col-xs-6 controls">
-                                                                        <?php $country=g etCountry($dataList[0][15]); echo $country[0][2]; ?>
+                                                                    <?php $country=getCountry($dataList[0][15]); echo $country[0][2]; ?>
                                                                     </div>
                                                                     <!-- col-sm-10 -->
                                                                 </div>
@@ -395,7 +398,7 @@
                                                             <div class="col-sm-6">
                                                                 <div class="row mgbt-xs-0">
                                                                     <label class="col-xs-6 control-label" style="color: #666;">Social/ecommerce Platform :</label>
-                                                                    <?php $ecom=e xplode( ",",$dataList[0][23]); $ecomUrl=e xplode( ",",$dataList[0][24]); for($i=0;$i<count($ecom);$i++){ ?>
+                                                                    <?php $ecom=explode( ",",$dataList[0][23]); $ecomUrl=explode( ",",$dataList[0][24]); for($i=0;$i<count($ecom);$i++){ ?>
                                                                     <div class="col-xs-6 controls">
                                                                         <?php echo $ecom[$i];?>
                                                                         <?php echo $ecomUrl[$i];?>
@@ -423,7 +426,7 @@
 
                                                     <div class="form-group">
                                                         <div class="col-sm-10">
-                                                            <?Php $getPics=g etPics($dataList[0][0], "marketing"); if(count($getPics)>0) { for($i=0;$i
+                                                            <?Php $getPics=getPics($dataList[0][0], "marketing"); if(count($getPics)>0) { for($i=0;$i
                                                             <count($getPics);$i++) { ?>
                                                                 <!-- <div class="col-md-2">
                            <a class="example-image-link" href="<?php echo $webUrl;?>register/images/marketing/<?php echo $getPics[$i][2];?>" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
@@ -527,7 +530,7 @@
                                                     <div>
                                                         <label class="col-xs-6 control-label" style="color: #666;">Core services :</label>
                                                         <div class="col-xs-6 controls">
-                                                            <?php if($dataList[0][28]!="" ){ $exp=e xplode( ',', $dataList[0][28]); for($x=0;$x<count($exp);$x++) { echo htmlspecialchars_decode(html_entity_decode($exp[$x])). "<br> "; } }else{ echo '--'; } ?>
+                                                            <?php if($dataList[0][28]!="" ){ $exp=explode( ',', $dataList[0][28]); for($x=0;$x<count($exp);$x++) { echo htmlspecialchars_decode(html_entity_decode($exp[$x])). "<br> "; } }else{ echo '--'; } ?>
                                                         </div>
                                                         <!-- col-sm-10 -->
                                                     </div>
@@ -535,7 +538,7 @@
                                                     <div>
                                                         <label class="col-xs-6 control-label" style="color: #666;">Other services offered:</label>
                                                         <div class="col-xs-6 controls">
-                                                            <?php if(($dataList[0][32]!="" )){ $exp=e xplode( '#', $dataList[0][32]); for($x=0;$x<count($exp);$x++) { echo htmlspecialchars_decode(html_entity_decode($exp[$x])). ", "; } }else{ echo '--'; } ?>
+                                                            <?php if(($dataList[0][32]!="" )){ $exp=explode( '#', $dataList[0][32]); for($x=0;$x<count($exp);$x++) { echo htmlspecialchars_decode(html_entity_decode($exp[$x])). ", "; } }else{ echo '--'; } ?>
                                                             <?php if($dataList[0][33]!="" ) { echo htmlspecialchars_decode(html_entity_decode($dataList[0][33])); } ?>
                                                             <br/>
                                                         </div>
@@ -546,7 +549,7 @@
                                                         <label class="col-xs-6 control-label" style="color: #666;">Industry Focus :</label>
                                                         <div class="col-xs-6 controls">
 
-                                                            <?php if($dataList[0][30] !="" ) { $expIndus=e xplode( ",",$dataList[0][30]); $txtIndus=e xplode( "#",$dataList[0][72]); for($w=0;$w<count($expIndus);$w++) { echo $expIndus[$w]. '<br>'; echo $txtIndus[$w]; } } ?>
+                                                            <?php if($dataList[0][30] !="" ) { $expIndus=explode( ",",$dataList[0][30]); $txtIndus=explode( "#",$dataList[0][72]); for($w=0;$w<count($expIndus);$w++) { echo $expIndus[$w]. '<br>'; echo $txtIndus[$w]; } } ?>
 
                                                         </div>
                                                         <!-- col-sm-10 -->
@@ -564,7 +567,7 @@
                                                     <div>
                                                         <label class="col-xs-6 control-label" style="color: #666;">Business Geographic Coverage :</label>
                                                         <div class="col-xs-6 controls">
-                                                            <?php if($dataList[0][35]!="" ) { $businessArea=e xplode( ",",$dataList[0][35]); $businessAreaDes=e xplode( ",",$dataList[0][36]); for($q=0;$q<count($businessAreaDes);$q++) { echo $businessArea[$q]. "<br>"; echo $businessAreaDes[$q]. "<br><br>"; } } ?>
+                                                            <?php if($dataList[0][35]!="" ) { $businessArea=explode( ",",$dataList[0][35]); $businessAreaDes=explode( ",",$dataList[0][36]); for($q=0;$q<count($businessAreaDes);$q++) { echo $businessArea[$q]. "<br>"; echo $businessAreaDes[$q]. "<br><br>"; } } ?>
                                                         </div>
                                                         <!-- col-sm-10 -->
                                                     </div>
@@ -710,7 +713,7 @@
 
                                                         <div>
 
-                                                            <?Php $getPics=g etPics($dataList[0][0], "fixed_asset"); if(count($getPics)>0) { for($i=0;$i
+                                                            <?Php $getPics=getPics($dataList[0][0], "fixed_asset"); if(count($getPics)>0) { for($i=0;$i
 
                                                             <count($getPics);$i++) { ?>
 
@@ -763,7 +766,7 @@
                                         <div class="col-sm-6">
                                             <h4 class="mgbt-xs-15 font-semibold" style="background-color: #2E6FAB; border-radius: 5px; color: #fff; padding: 10px;"><img src="images/icon6.jpg"> AWARDS</h4>
                                             <div class="content-list content-menu" style="padding: 10px;">
-                                                <?Php $getPics=g etPics($dataList[0][0], "awards"); if(count($getPics)>0) { for($i=0;$i
+                                                <?Php $getPics=getPics($dataList[0][0], "awards"); if(count($getPics)>0) { for($i=0;$i
                                                 <count($getPics);$i++) { ?>
 
                                                     <div class="col-md-4" style="margin-bottom: 5px;">
@@ -784,7 +787,7 @@
 
                                         <div class="col-sm-6 mgbt-xs-20">
                                             <h4 class="mgbt-xs-15 font-semibold" style="background-color: #2E6FAB; border-radius: 5px; color: #fff; padding: 10px;"><img src="images/icon7.jpg"> CERTIFICATIONS</h4>
-                                            <?Php $getPics=g etPics($dataList[0][0], "certificate"); if(count($getPics)>0) { for($i=0;$i
+                                            <?Php $getPics=getPics($dataList[0][0], "certificate"); if(count($getPics)>0) { for($i=0;$i
                                             <count($getPics);$i++) { ?>
                                                 <!-- <div class="col-md-2">
                    <a class="example-image-link" href="<?php echo $webUrl;?>register/images/certificate/<?php echo $getPics[$i][2];?>" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
